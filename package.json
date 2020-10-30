@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gen-paser": "nearleyc small.ne -o small.js"
+    "gen-parser": "nearleyc small.ne -o small.js"
   },
   "keywords": [],
   "author": "",

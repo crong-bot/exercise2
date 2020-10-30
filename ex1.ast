@@ -1,6 +1,7 @@
 [
-  [
-    {
+  {
+    "type": "var_assign",
+    "var_name": {
       "type": "identifier",
       "value": "name",
       "text": "name",
@@ -9,51 +10,14 @@
       "line": 1,
       "col": 1
     },
-    [
-      [
-        {
-          "type": "WS",
-          "value": " ",
-          "text": " ",
-          "offset": 4,
-          "lineBreaks": 0,
-          "line": 1,
-          "col": 5
-        }
-      ]
-    ],
-    {
-      "type": "assign",
-      "value": "=",
-      "text": "=",
-      "offset": 5,
+    "value": {
+      "type": "string",
+      "value": "\"jack\"",
+      "text": "\"jack\"",
+      "offset": 7,
       "lineBreaks": 0,
       "line": 1,
-      "col": 6
-    },
-    [
-      [
-        {
-          "type": "WS",
-          "value": " ",
-          "text": " ",
-          "offset": 6,
-          "lineBreaks": 0,
-          "line": 1,
-          "col": 7
-        }
-      ]
-    ],
-    [
-      {
-        "type": "string",
-        "value": "\"jacki\"",
-        "text": "\"jacki\"",
-        "offset": 7,
-        "lineBreaks": 0,
-        "line": 1,
-        "col": 8
-      }
-    ]
-  ]
+      "col": 8
+    }
+  }
 ]

@@ -19,6 +19,7 @@ async function main() {
        const ast = parser.results[0]
        const outputFilename= filename.replace(".small",".ast");
        await fs.writeFile(outputFilename, JSON.stringify(ast, null, "  "))
+       console.log(`wrot ${outputFilename}`)
     }else {
         console.log("error occur");
     }

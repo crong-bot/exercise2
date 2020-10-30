@@ -1,0 +1,3 @@
+print("hello world")
+name ="jacki"
+print("heoll" name)
